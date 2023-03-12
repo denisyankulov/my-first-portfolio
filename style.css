@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #4B8673;
+}
+
+/*
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Pacifico', cursive;
+  */
+p {
+  font-family: 'Nunito', sans-serif;
+  color: #F6FBF4;
+}
+
+h2 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 33px;
+  color: #F5DF99;
+}
+
+h3 {
+  font-family: 'Nunito', sans-serif;
+  color: #F5DF99;
+  font-weight: 600;
+}
+
+hr {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 5%;
+  border: 10px dotted #EAF6F6;
+  border-bottom: none;
+}
+
+header {
+  display: inline-grid;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+header span {
+  text-decoration: underline;
+  color: #5FD068;
+}
+
+header h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 60px;
+  color: #F5DF99;
+  margin-bottom: 5%;
+
+}
+
+header h2{
+  margin-top: 0%;
+}
+
+.imgs-header {
+  display: flex;
+  justify-content: center;
+}
+
+.img-cloud {
+  width: 10%;
+  height: 10%;
+  margin-right: 100px;
+}
+
+.img-cloud-with-sun {
+  width: 10%;
+  height: 10%;
+  margin-left: 100px;
+}
+
+/* about me section */
+
+.img-about-me {
+  width: 200px;
+  height: 200px;
+}
+
+.about-me {
+  margin-top: 40px;
+}
+
+.img-about-me {
+  border-radius: 50%;
+}
+
+
+/* my skills section */
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row img {
+  width: 25%;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+
+/* contact-me section */
+
+.contact-me h3 {
+  margin-top: 20px;
+}
+
+.contact-me p {
+  margin-top: 40px;
+}
+
+.contact-me button {
+  margin-top: 40px;
+  background-color: #5FD068;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px 10px 20px;
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.contact-me button:hover {
+  background-color: #F6FBF4;
+  color: black;
+  transition: 0.2s;
+}
+
+/* footer */
+
+footer {
+  margin-top: 60px;
+  background-color: #5FD068;
+  padding: 50px 0 20px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #4B8673;
+  font-family: 'Nunito', sans-serif;
+  margin: 10px 20px;
+}
+
+footer a:hover {
+  color: #F6FBF4;
+  transition: 0.2s;
+}
+
+footer p {
+  margin: 25px 0 15px;
+  color: #EAF6F6;
+  font-size: 12px;
+}
